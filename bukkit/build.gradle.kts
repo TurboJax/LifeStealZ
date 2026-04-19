@@ -34,17 +34,16 @@ dependencies {
 }
 
 tasks {
-    processResources {
-        filesMatching("plugin.yml") {
-            expand(
-                "name" to project.property("artifactName")!!,
-                "version" to project.version,
-                "group" to project.group,
-                "author" to project.property("author")!!,
-                "description" to project.property("description")!!,
-            )
-        }
-    }
+     processResources {
+         var props = mapOf("version" to project.version,
+             "name" to project.findProperty("artifactName"),
+             "description" to project.findProperty("description"))
+         inputs.properties(props)
+         filteringCharset = "UTF-8"
+         filesMatching("plugin.yml") {
+             expand(props)
+         }
+     }
     shadowJar {
         // minimize {
         //     exclude(project(":chunky-common"))
