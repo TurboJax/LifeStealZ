@@ -18,7 +18,8 @@ dependencies {
     compileOnly("org.mariadb.jdbc:mariadb-java-client:3.5.2")
     compileOnly("org.xerial:sqlite-jdbc:3.45.3.0")
 
-    compileOnly("org.projectlombok:lombok:1.18.34")
+    compileOnly("org.projectlombok:lombok:1.18.44")
+    annotationProcessor("org.projectlombok:lombok:1.18.44")
     compileOnly("com.googlecode.json-simple:json-simple:1.1.1")
 
     implementation("org.bstats:bstats-bukkit:3.0.2")
