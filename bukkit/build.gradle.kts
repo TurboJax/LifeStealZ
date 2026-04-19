@@ -1,11 +1,11 @@
 repositories {
+    mavenCentral()
     mavenLocal()
     maven("https://repo.opencollab.dev/main/")
     maven("https://hub.spigotmc.org/nexus/content/repositories/snapshots/")
     maven("https://repo.extendedclip.com/content/repositories/placeholderapi/")
     maven("https://maven.enginehub.org/repo/")
     maven("https://maven.zetaplugins.com/")
-    maven("https://repo.maven.apache.org/maven2/")
 }
 
 dependencies {
