@@ -1,11 +1,11 @@
-name: LifeStealZ
-version: "${project.version}"
+name: ${name}
+version: "${version}"
 main: com.zetaplugins.lifestealz.LifeStealZ
 api-version: "1.21.4"
 
 author: Kartoffelchipss
 website: https://zetaplugins.com/
-description: The Ultimate LifeSteal SMP Plugin!
+description: "${description}"
 
 libraries:
   - net.kyori:adventure-api:4.26.1
