@@ -1,5 +1,6 @@
 package com.zetaplugins.lifestealz.util;
 
+import com.zetaplugins.lifestealz.config.BypassPermissionConfig;
 import org.bukkit.entity.Player;
 import com.zetaplugins.lifestealz.LifeStealZ;
 
@@ -10,7 +11,7 @@ public final class BypassManager {
         this.plugin = plugin;
     }
 
-    public BypassConfig getConfig() {
+    public BypassPermissionConfig getConfig() {
         return new BypassConfig(plugin);
     }
 

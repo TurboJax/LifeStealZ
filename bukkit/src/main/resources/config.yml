@@ -23,6 +23,18 @@ checkForUpdates: true
 #  | en-US | de-DE | es-ES | fr-FR | cs-CZ | vi-VN | zh-CN | pl-PL | nl-NL | ru-RU | it-IT | tr-TR |
 lang: "en-US"
 
+# === Storage ===
+storage:
+  # The type of storage to use. You have the following options:
+  # "SQLite", "MySQL", "MariaDB"
+  type: "SQLite"
+
+  # This section is only relevant if you use a MySQL database
+  host: "localhost"
+  port: 3306
+  database: "lifestealz"
+  username: "root"
+  password: "password"
 
 # === HEART SETTINGS ===
 
@@ -46,7 +58,7 @@ enforceMaxHeartsOnAdminCommands: false
 # The custom items that should be used for the following scenarios (Must be an id from the items.yml)
 heartItem:
   # This item will be used for anything that is not listed below (mostly legacy)
-  default: "defaultheart"
+  defaultItem: "defaultheart"
   # This item will be given when a user withdraws a heart
   withdraw: "defaultheart"
   # This item will be dropped when a player is killed by another player and "dropHeartsPlayer" is enabled

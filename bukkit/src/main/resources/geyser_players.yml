@@ -1,2 +1,6 @@
 # Please do not modify this file!
 players:
+  uuid1:
+    name: "hi"
+  uuid2:
+    name: "hi2"

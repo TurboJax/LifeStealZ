@@ -5,7 +5,7 @@ import org.bukkit.OfflinePlayer;
 import org.bukkit.attribute.Attribute;
 import org.bukkit.attribute.AttributeInstance;
 import org.bukkit.entity.Player;
-import org.jetbrains.annotations.NotNull;
+import org.jspecify.annotations.NonNull;
 import com.zetaplugins.lifestealz.LifeStealZ;
 import com.zetaplugins.lifestealz.storage.PlayerData;
 
@@ -17,17 +17,17 @@ public final class PapiExpansion extends PlaceholderExpansion {
     }
 
     @Override
-    public @NotNull String getAuthor() {
+    public @NonNull String getAuthor() {
         return "Kartoffelchipss";
     }
 
     @Override
-    public @NotNull String getIdentifier() {
+    public @NonNull String getIdentifier() {
         return "lifestealz";
     }
 
     @Override
-    public @NotNull String getVersion() {
+    public @NonNull String getVersion() {
         return plugin.getDescription().getVersion();
     }
 
@@ -37,7 +37,7 @@ public final class PapiExpansion extends PlaceholderExpansion {
     }
 
     @Override
-    public String onRequest(OfflinePlayer player, @NotNull String identifier) {
+    public String onRequest(OfflinePlayer player, @NonNull String identifier) {
         if (player == null || player.getPlayer() == null) return "PlayerNotFound";
 
         switch (identifier) {

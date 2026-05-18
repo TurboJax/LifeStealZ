@@ -4,7 +4,7 @@ import com.zetaplugins.zetacore.annotations.AutoRegisterTabCompleter;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.command.TabCompleter;
-import org.jetbrains.annotations.NotNull;
+import org.jspecify.annotations.NonNull;
 import org.jetbrains.annotations.Nullable;
 import com.zetaplugins.lifestealz.LifeStealZ;
 
@@ -23,7 +23,7 @@ public final class MainTabCompleter implements TabCompleter {
     }
 
     @Override
-    public @Nullable List<String> onTabComplete(@NotNull CommandSender sender, @NotNull Command command, @NotNull String alias, String[] args) {
+    public @Nullable List<String> onTabComplete(@NonNull CommandSender sender, @NonNull Command command, @NonNull String alias, String[] args) {
         if (args.length == 1) return getFirstArgOptions(sender, args);
         if (args.length == 2) return getSecondArgOptions(sender, args);
         if (args.length == 3) return getThirdArgOptions(sender, args);

@@ -19,10 +19,6 @@ public final class ConfigManager {
         this.plugin = plugin;
     }
 
-    public FileConfiguration getStorageConfig() {
-        return getCustomConfig("storage");
-    }
-
     public FileConfiguration getCustomItemConfig() {
         return getCustomConfig("items");
     }
@@ -48,7 +44,6 @@ public final class ConfigManager {
     public Map<String, String> getConfigsMap() {
         Map<String, String> configs = new HashMap<>();
         configs.put("config.yml", plugin.getConfig().saveToString());
-        configs.put("storage.yml", getStorageConfig().saveToString());
         configs.put("items.yml", getCustomItemConfig().saveToString());
         return configs;
     }

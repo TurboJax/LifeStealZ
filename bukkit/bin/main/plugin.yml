@@ -1,0 +1,93 @@
+name: ${name}
+version: "${version}"
+main: com.zetaplugins.lifestealz.LifeStealZ
+api-version: "1.21.4"
+
+author: Kartoffelchipss
+website: https://zetaplugins.com/
+description: "${description}"
+
+libraries:
+  - net.kyori:adventure-api:4.26.1
+  - net.kyori:adventure-text-minimessage:4.26.1
+  - net.kyori:adventure-text-serializer-legacy:4.26.1
+
+softdepend:
+  - PlaceholderAPI
+  - WorldGuard
+  - floodgate
+
+commands:
+  lifestealz:
+    aliases:
+      - lsz
+    description: lifestealz admin commands
+    permission-message: "<red>You don't have permission to use this command!"
+  eliminate:
+    permission: lifestealz.admin.eliminate
+    description: eliminate a player
+    permission-message: "<red>You don't have permission to use this command!"
+  revive:
+    permission: lifestealz.admin.revive
+    description: revive a player
+    permission-message: "<red>You don't have permission to use this command!"
+  withdrawheart:
+    permission: lifestealz.withdraw
+    description: withdraw a heart
+    permission-message: "<red>You don't have permission to use this command!"
+  hearts:
+    permission: lifestealz.viewhearts
+    description: view other players max hearts
+    permission-message: "<red>You don't have permission to use this command!"
+
+permissions:
+  lifestealz.managedata:
+    description: permission to manage data
+    default: op
+  lifestealz.admin.reload:
+    description: permission to reload plugin
+    default: op
+  lifestealz.admin.setlife:
+    description: set a players hearts
+    default: op
+  lifestealz.admin.giveitem:
+    description: give custom items to player
+    default: op
+  lifestealz.admin.eliminate:
+    description: eliminate a player
+    default: op
+  lifestealz.admin.revive:
+    description: revive a player
+    default: op
+  lifestealz.admin.graceperiod:
+    description: manage players grace period
+    default: op
+  lifestealz.admin.debug:
+    description: access debug commands
+    default: op
+  lifestealz.bypassrevivelimit:
+    description: bypass the player revive limit
+    default: op
+  lifestealz.withdraw:
+    description: withdraw a heart
+    default: true
+  lifestealz.revive:
+    description: allow to revive player
+    default: true
+  lifestealz.viewrecipes:
+    description: allows to view recipes
+    default: true
+  lifestealz.help:
+    description: allows to see help page
+    default: true
+  lifestealz.viewhearts:
+    description: allows to view other players max hearts
+    default: true
+  lifestealz.maxhearts:
+    description: set the max hearts
+  lifestealz.bypass:
+    description: Prevents heart loss, drops, and killer rewards on death
+    default: false
+  lifestealz.admin.bypasscheck:
+    description: Check other players' and your own bypass status
+    default: op

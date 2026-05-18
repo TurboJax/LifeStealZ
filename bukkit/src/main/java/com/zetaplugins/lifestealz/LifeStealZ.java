@@ -7,6 +7,7 @@ import com.zetaplugins.zetacore.services.bStats.Metrics;
 import com.zetaplugins.zetacore.services.commands.AutoCommandRegistrar;
 import com.zetaplugins.zetacore.services.events.AutoEventRegistrar;
 import org.bukkit.Bukkit;
+import org.bukkit.OfflinePlayer;
 import org.bukkit.attribute.Attribute;
 import org.bukkit.attribute.AttributeInstance;
 import org.bukkit.entity.Player;
@@ -214,6 +215,9 @@ public final class LifeStealZ extends ZetaCorePlugin {
     }
 
     private Storage createPlayerDataStorage() {
+        OfflinePlayer p;
+        p.att()
+
         switch (getConfigManager().getStorageConfig().getString("type").toLowerCase()) {
             case "mysql":
                 getLogger().info("Using MySQL storage");
