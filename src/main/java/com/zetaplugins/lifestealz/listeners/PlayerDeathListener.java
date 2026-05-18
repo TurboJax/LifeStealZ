@@ -55,6 +55,10 @@ public final class PlayerDeathListener implements Listener {
             playerUUID = (UUID) player.getMetadata("combat_log_npc").get(0).value();
         }
         final PlayerData playerData = plugin.getStorage().load(playerUUID);
+        if (playerData == null) {
+            plugin.getLogger().severe("PlayerData not found for player " + player.getName() + " on death event. This should not happen!");
+            return;
+        }
 
         final boolean isDeathByPlayer = killer != null && !killer.getUniqueId().equals(playerUUID);
 
@@ -217,7 +221,7 @@ public final class PlayerDeathListener implements Listener {
                 handleKillerHeartGainDirect(killer, pvpEvent.getHeartsKillerGains());
             }
 
-            if (!pvpEvent.getDeathMessage().equals(event.getDeathMessage())) {
+            if (pvpEvent.getDeathMessage() != null && !pvpEvent.getDeathMessage().equals(event.getDeathMessage())) {
                 event.setDeathMessage(pvpEvent.getDeathMessage());
             }
         }

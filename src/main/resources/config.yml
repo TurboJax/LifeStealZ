@@ -76,6 +76,8 @@ announceElimination: true
 
 # Allows players to withdraw a heart, even if they only have one left
 allowDyingFromWithdraw: true
+# The minimum hearts the player would have after withdrawing must be above this limit
+minWithdrawHearts: 0
 # If a player should also heal the appropriate amount of hearts, when using a heart item
 healOnHeartUse: false
 # If the totem effect should be played, when you use a heart

@@ -66,6 +66,18 @@ public final class WithdrawCommand implements CommandExecutor, TabCompleter {
 
         PlayerData playerdata = plugin.getStorage().load(player.getUniqueId());
 
+        int minWithdrawHearts = plugin.getConfig().getInt("minWithdrawHearts", 0);
+        int playerHearts = (int) (playerdata.getMaxHealth() / 2);
+        if (playerHearts - withdrawHearts < minWithdrawHearts) {
+            sender.sendMessage(MessageUtils.getAndFormatMsg(
+                    false,
+                    "minWithdrawHearts",
+                    "&cInsufficient hearts! You must have at least %min% hearts remaining after withdrawal.",
+                    new MessageUtils.Replaceable("%min%", minWithdrawHearts + "")
+            ));
+            return false;
+        }
+
         boolean withdrawtoDeath = plugin.getConfig().getBoolean("allowDyingFromWithdraw");
 
         if (withdrawHearts < 1) {

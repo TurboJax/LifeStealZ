@@ -1,152 +1,153 @@
 ---
-prefix: "<dark_gray>[<red>LifeStealZ<dark_gray>]"
+prefix: "&8[&cLifeStealZ&8]"
 newVersionAvailable: |-
-  <gray>Eine neue Version von LifeStealZ ist verfügbar!
-  <red><click:OPEN_URL:https://modrinth.com/plugin/lifestealz/versions>https://modrinth.com/plugin/lifestealz/versions</click>
-usageError: "<red>Verwendung: %usage%"
+  &7Eine neue Version von LifeStealZ ist verfügbar!
+  &c<click:OPEN_URL:https://modrinth.com/plugin/lifestealz/versions>https://modrinth.com/plugin/lifestealz/versions</click>
+usageError: "&cVerwendung: %usage%"
 noPermsError: "<red>Du hast keine Berechtigung, diesen Befehl auszuführen!"
-needToBePlayer: "<red>Du musst ein Spieler sein, um diesen Befehl ausführen zu können!"
-playerNotFound: "<red>Spieler nicht gefunden!"
-worldNotWhitelisted: "<red>Diese Welt ist nicht auf der LifeStealZ Whitelist!"
-specifyPlayerOrBePlayer: "<red>Du musst entweder einen Spieler angeben oder selbst ein
+needToBePlayer: "&cDu musst ein Spieler sein, um diesen Befehl ausführen zu können!"
+playerNotFound: "&cSpieler nicht gefunden!"
+worldNotWhitelisted: "&cDiese Welt ist nicht auf der LifeStealZ Whitelist!"
+specifyPlayerOrBePlayer: "&cDu musst entweder einen Spieler angeben oder selbst ein
   Spieler sein!"
-noPermissionError: "<red>Du hast keine Berechtigung, das zu benutzen!"
-noPlayerData: "<red>Dieser Spieler hat noch nicht auf diesem Server gespielt!"
-eliminateSuccess: "<gray>Du hast <red>%player%<gray> erfolgreich eliminiert!"
-reviveSuccess: "<gray>Du hast <red>%player%<gray> erfolgreich wiederbelebt!"
-massReviveSuccess: "<gray>Du hast <red>%amount% Spieler <gray>erfolgreich wiederbelebt!"
-massReviveError: "<red>Beim Wiederbeleben aller Spieler ist ein Fehler aufgetreten: %error%"
-reviveMaxReached: "<red>Dieser Spieler wurde bereits %amount% mal wiederbelebt!"
-onlyReviveElimPlayers: "<red>Du kannst nur eliminierte Spieler wiederbeleben!"
-reviveBossbarTitle: "<red>&target& wird wiederbelebt <gray><b>| </b><dark_aqua>&remainingH&:&remainingM&:&remainingS&
-  übrig <gray><b>| </b><gold>X: <b>ocationX& Y: <b>ocationY& Z: <b>ocationZ&"
-eliminatedJoin: "<red>Du hast keine Herzen mehr!"
-eliminationAnnouncement: "<red>%player% <gray>wurde von <red>%killer%<gray> eliminiert!"
-eliminateionAnnouncementNature: "<red>%player% <gray>wurde eliminiert!"
-setHeartsConfirmSingle: "<gray>Erfolgreich <red>%player%'s <gray>Herzen auf <red>%amount% Herzen
+noPermissionError: "&cDu hast keine Berechtigung, das zu benutzen!"
+noPlayerData: "&cDieser Spieler hat noch nicht auf diesem Server gespielt!"
+eliminateSuccess: "&7Du hast &c%player%&7 erfolgreich eliminiert!"
+reviveSuccess: "&7Du hast &c%player%&7 erfolgreich wiederbelebt!"
+massReviveSuccess: "&7Du hast &c%amount% Spieler &7erfolgreich wiederbelebt!"
+massReviveError: "&cBeim Wiederbeleben aller Spieler ist ein Fehler aufgetreten: %error%"
+reviveMaxReached: "&cDieser Spieler wurde bereits %amount% mal wiederbelebt!"
+onlyReviveElimPlayers: "&cDu kannst nur eliminierte Spieler wiederbeleben!"
+reviveBossbarTitle: "&c&target& wird wiederbelebt &7&l| &r&3&remainingH&:&remainingM&:&remainingS&
+  übrig &7&l| &r&6X: &locationX& Y: &locationY& Z: &locationZ&"
+eliminatedJoin: "&cDu hast keine Herzen mehr!"
+eliminationAnnouncement: "&c%player% &7wurde von &c%killer%&7 eliminiert!"
+eliminateionAnnouncementNature: "&c%player% &7wurde eliminiert!"
+setHeartsConfirmSingle: "&7Erfolgreich &c%player%'s &7Herzen auf &c%amount% Herzen
   gesetzt"
-setHeartsConfirmMultiple: "<gray>Erfolgreich die Herzen von <red>%pamount% Spielern <gray> auf
-  <red>%amount% <gray>gesetzt"
-addHeartsConfirmSingle: "<gray>Erfolgreich <red>%player% <red>%amount% <gray>Herzen hinzugefügt"
-addHeartsConfirmMultiple: "<gray>Erfolgreich <red>%pamount% Spielern <red>%amount% <gray>Herzen
+setHeartsConfirmMultiple: "&7Erfolgreich die Herzen von &c%pamount% Spielern &7 auf
+  &c%amount% &7gesetzt"
+addHeartsConfirmSingle: "&7Erfolgreich &c%player% &c%amount% &7Herzen hinzugefügt"
+addHeartsConfirmMultiple: "&7Erfolgreich &c%pamount% Spielern &c%amount% &7Herzen
   hinzugefügt"
-removeHeartsConfirmSingle: "<gray>Erfolgreich <red>%player%'s <gray>Herzen um <red>%amount% <gray>Herzen
+removeHeartsConfirmSingle: "&7Erfolgreich &c%player%'s &7Herzen um &c%amount% &7Herzen
   reduziert"
-removeHeartsConfirmMultiple: "<gray>Erfolgreich die Herzen von <red>%pamount% Spielern <gray>
-  um <red>%amount% <gray>Herzen reduziert"
-connotSetHeartsBelowOrToZero: "<red>Du kannst die Herzen eines Spielers nicht unter oder
+removeHeartsConfirmMultiple: "&7Erfolgreich die Herzen von &c%pamount% Spielern &7
+  um &c%amount% &7Herzen reduziert"
+connotSetHeartsBelowOrToZero: "&cDu kannst die Herzen eines Spielers nicht unter oder
   auf 0 setzen!"
-getHearts: "<red>%player% <gray>hat derzeit <red>%amount% <gray>Herzen!"
-reloadMsg: "<gray>Das Plugin wurde erfolgreich neu geladen!"
-versionMsg: "<gray>Du benutzt Version <red>%version%"
+getHearts: "&c%player% &7hat derzeit &c%amount% &7Herzen!"
+reloadMsg: "&7Das Plugin wurde erfolgreich neu geladen!"
+versionMsg: "&7Du benutzt Version <red>%version%"
 newVersionMsg: |2
 
-  <red><b><grey>></grey> LifeStealZ</b> <grey>v%version%</grey>
+  &c<b><grey>></grey> LifeStealZ</b> <grey>v%version%</grey>
 
-  <red> <u><click:open_url:'https://lsz.j4n.net/'>Dokumentation</click></u>  <red><u><click:open_url:'https://strassburger.org/discord'>Support Discord</click></u>
-noWithdraw: "<red>Du würdest eliminiert werden, wenn du so viele Herzen auszahlst!"
-withdrawConfirmmsg: "<dark_gray><i>Verwende <underlined><click:SUGGEST_COMMAND:/withdrawheart
+  &c <u><click:open_url:'https://lsz.j4n.net/'>Dokumentation</click></u>  &c<u><click:open_url:'https://strassburger.org/discord'>Support Discord</click></u>
+noWithdraw: "&cDu würdest eliminiert werden, wenn du so viele Herzen auszahlst!"
+withdrawConfirmmsg: "&8&oVerwende <underlined><click:SUGGEST_COMMAND:/withdrawheart
   %amount% confirm>/withdrawheart %amount% confirm</click></underlined>, wenn du wirklich
   Herzen auszahlen möchtest."
-maxHeartLimitReached: "<red>Du hast bereits das Limit von %limit% Herzen erreicht!"
-closeBtn: "<red>Schließen"
-backBtn: "<red>Zurück"
-nextBtn: "<red>Nächste Seite"
-reviveTitle: "<dark_gray>Spieler wiederbeleben"
-revivePlayerDesc: "<gray>Klicke hier, um diesen Spieler wiederzubeleben"
-viewheartsYou: "<gray>Du hast derzeit <red>%amount% <gray>Herzen!"
-viewheartsOther: "<red>%player% <gray>hat derzeit <red>%amount% <gray>Herzen!"
-heartconsume: "<gray>Du hast <red>%amount% <gray>Herzen erhalten!"
-heartconsumeCooldown: "<red>Du musst warten, bevor du ein weiteres Herz benutzen kannst!"
-recipeNotCraftable: "<red>Dieser Gegenstand kann nicht hergestellt werden!"
-recipeNotFound: "<red>Dieser Rezept existiert nicht!"
-altKill: "<red>Bitte töte keine Alts! Dieser Versuch wurde protokolliert!"
-withdrawMin: "<red>Du kannst nicht weniger als 1 Herz auszahlen!"
-noInventorySpace: "<red>Du hast nicht genug Inventarplatz, um so viele Herzen abzuheben!"
-giveItem: "<gray>Du hast %amount%x <red>%item%<gray> erhalten!"
-heartGainCooldown: "<red>Du musst warten, bevor du ein weiteres Herz erhalten kannst!"
-exportData: "<gray>Erfolgreich Daten nach <red>%file% <gray>exportiert!"
-exportDataError: "<red>Fehler beim Exportieren der Daten! Überprüfe die Konsole für Details."
-exportingData: "<gray>Exportiere Spielerdaten..."
+maxHeartLimitReached: "&cDu hast bereits das Limit von %limit% Herzen erreicht!"
+closeBtn: "&cSchließen"
+backBtn: "&cZurück"
+nextBtn: "&cNächste Seite"
+reviveTitle: "&8Spieler wiederbeleben"
+revivePlayerDesc: "&7Klicke hier, um diesen Spieler wiederzubeleben"
+viewheartsYou: "&7Du hast derzeit &c%amount% &7Herzen!"
+viewheartsOther: "&c%player% &7hat derzeit &c%amount% &7Herzen!"
+heartconsume: "&7Du hast &c%amount% &7Herzen erhalten!"
+heartconsumeCooldown: "&cDu musst warten, bevor du ein weiteres Herz benutzen kannst!"
+recipeNotCraftable: "&cDieser Gegenstand kann nicht hergestellt werden!"
+recipeNotFound: "&cDieser Rezept existiert nicht!"
+altKill: "&cBitte töte keine Alts! Dieser Versuch wurde protokolliert!"
+withdrawMin: "&cDu kannst nicht weniger als 1 Herz auszahlen!"
+noInventorySpace: "&cDu hast nicht genug Inventarplatz, um so viele Herzen abzuheben!"
+giveItem: "&7Du hast %amount%x &c%item%&7 erhalten!"
+heartGainCooldown: "&cDu musst warten, bevor du ein weiteres Herz erhalten kannst!"
+exportData: "&7Erfolgreich Daten nach &c%file% &7exportiert!"
+exportDataError: "&cFehler beim Exportieren der Daten! Überprüfe die Konsole für Details."
+exportingData: "&7Exportiere Spielerdaten..."
 importData: |-
-  <gray>Erfolgreich Daten von <red>%file% <gray>importiert!
-  <red>Bitte starte den Server neu um eine saubere Migration zu garantieren!
-importDataError: "<red>Feher beim Importieren der Daten! Überprüfe die Konsole für Details."
-importingData: "<gray>Importiere Spielerdaten..."
+  &7Erfolgreich Daten von &c%file% &7importiert!
+  &cBitte starte den Server neu um eine saubere Migration zu garantieren!
+importDataError: "&cFeher beim Importieren der Daten! Überprüfe die Konsole für Details."
+importingData: "&7Importiere Spielerdaten..."
 unwhitelistedWorld: |2
 
   <red><b><grey>></grey> Welt-Whitelist</b></red>
 
-  <gray>Du spielst auf der Welt <red><click:COPY_TO_CLIPBOARD:'&world&'><hover:show_text:'<gray>Copy to clipboard'>&world&</hover></click></red>.
+  <gray>Du spielst auf der Welt <red><click:COPY_TO_CLIPBOARD:'&world&'><hover:show_text:'&7Copy to clipboard'>&world&</hover></click></red>.
   Diese welt ist nicht auf der Whitelist. LSZ wird hier nicht funktionieren.</gray>
 
   <red><u><click:open_url:'https://lsz.strassburger.dev/configuration/whitelist'>Dokumentation</click></u></red>   <red><u><click:open_url:'https://strassburger.org/discord'>Support Discord</click></u></red>   <u><hover:show_text:'<gray>Zum ignorieren, setze 'supressWhitelistMessage' auf <b>true</b> in der config datei.</gray>'><red>Nachricht verbergen</red></hover></u>
-itemFramesDisabled: "<red>Du kannst keine besonderen Gegenstände in Gegenstandsrahmen
+itemFramesDisabled: "&cDu kannst keine besonderen Gegenstände in Gegenstandsrahmen
   platzieren!"
-itemMinHearts: "<red>Du benötigst mindestens %amount% Herzen, um diesen Gegenstand zu
+itemMinHearts: "&cDu benötigst mindestens %amount% Herzen, um diesen Gegenstand zu
   benutzen!"
-itemMaxHearts: "<red>Du hast die maximale Anzahl an Herzen für diesen Gegenstand erreicht!"
+itemMaxHearts: "&cDu hast die maximale Anzahl an Herzen für diesen Gegenstand erreicht!"
 webhookEliminationTitle: Spieler eliminiert
 webhookElimination: "**%player%** wurde von **%killer%** eliminiert!"
 webhookEliminationColor: ea3323
 webhookReviveTitle: Spieler wiederbelebt
 webhookRevive: "**%player%** wurde von **%reviver%** wiederbelebt!"
 webhookReviveColor: b094ee
-gracePeriodEnd: "<gray>Deine Schutzzeit ist abgelaufen!"
-noDamageInGracePeriod: "<red>Du kannst während der Schutzzeit keine Spieler angreifen!"
-noHeartUseInGracePeriod: "<red>Du kannst während der Schutzzeit keine Herzen benutzen!"
-noHeartGainInGracePeriod: "<red>Du kannst während der Schutzzeit keine Herzen erhalten!"
-noHeartGainFromPlayersInGracePeriod: "<red>Du kannst während der Schutzzeit keine Herzen
+gracePeriodEnd: "&7Deine Schutzzeit ist abgelaufen!"
+noDamageInGracePeriod: "&cDu kannst während der Schutzzeit keine Spieler angreifen!"
+noHeartUseInGracePeriod: "&cDu kannst während der Schutzzeit keine Herzen benutzen!"
+noHeartGainInGracePeriod: "&cDu kannst während der Schutzzeit keine Herzen erhalten!"
+noHeartGainFromPlayersInGracePeriod: "&cDu kannst während der Schutzzeit keine Herzen
   von Spielern erhalten!"
-noHeartLossInGracePeriod: "<red>Du kannst während der Schutzzeit keine Herzen verlieren!"
-gracePeriodSkipSuccess: "<gray>Erfolgreich die Schutzzeit für <red>%playerCount% <gray>Spieler
+noHeartLossInGracePeriod: "&cDu kannst während der Schutzzeit keine Herzen verlieren!"
+gracePeriodSkipSuccess: "&7Erfolgreich die Schutzzeit für &c%playerCount% &7Spieler
   übersprungen."
-gracePeriodResetSuccess: "<gray>Erfolgreich die Schutzzeit für <red>%playerCount% <gray>Spieler
+gracePeriodResetSuccess: "&7Erfolgreich die Schutzzeit für &c%playerCount% &7Spieler
   zurückgesetzt."
-gracePeriodSkipSuccessOnePlayer: "<gray>Erfolgreich die Schutzzeit für <red>%player% <gray>übersprungen."
-gracePeriodResetSuccessOnePlayer: "<gray>Erfolgreich die Schutzzeit für <red>%player% <gray>zurückgesetzt."
-interactionNotAllowed: "<red>Damit darfst du nicht interagieren!"
-generatingDebugReport: "<gray>Dubug Bericht wird generiert..."
-debugReportUploaded: "<green>Debug Bericht hochgeladen: "
-clickToOpenDebugReport: "<yellow>Klicke hier, um den Debug Bericht zu öffnen"
-failedToUploadDebugReport: "<red>Fehler beim Hochladen des Debug Berichts. Bitte versuche
+gracePeriodSkipSuccessOnePlayer: "&7Erfolgreich die Schutzzeit für &c%player% &7übersprungen."
+gracePeriodResetSuccessOnePlayer: "&7Erfolgreich die Schutzzeit für &c%player% &7zurückgesetzt."
+interactionNotAllowed: "&cDamit darfst du nicht interagieren!"
+generatingDebugReport: "&7Dubug Bericht wird generiert..."
+debugReportUploaded: "&aDebug Bericht hochgeladen: "
+clickToOpenDebugReport: "&eKlicke hier, um den Debug Bericht zu öffnen"
+failedToUploadDebugReport: "&cFehler beim Hochladen des Debug Berichts. Bitte versuche
   es später erneut."
-errorWhileGeneratingDebugReport: "<red>Beim Generieren des Debug Berichts ist ein Fehler
+errorWhileGeneratingDebugReport: "&cBeim Generieren des Debug Berichts ist ein Fehler
   aufgetreten."
-recipeInventoryTitle: "<dark_gray>Rezept"
-reviveBeaconAlreadyInUse: "<red>Dieser Wiederbelebungsblock ist bereits in Benutzung!
+recipeInventoryTitle: "&8Rezept"
+reviveBeaconAlreadyInUse: "&cDieser Wiederbelebungsblock ist bereits in Benutzung!
   Bitte warte, bis die aktuelle Wiederbelebung abgeschlossen ist."
-reviveBeaconStart: "<red>%player% <gray>wird in <red>%seconds% Sekunden <gray>wiederbelebt! Bitte
+reviveBeaconStart: "&c%player% &7wird in &c%seconds% Sekunden &7wiederbelebt! Bitte
   warte..."
-reviveBeaconBreak: "<gray>Dein Wiederbelebungsblock wurde von <red>%breaker% <gray>zerstört,
+reviveBeaconBreak: "&7Dein Wiederbelebungsblock wurde von &c%breaker% &7zerstört,
   der Wiederbelebungsprozess wurde abgebrochen."
-beaconInUseInteract: "<gray>Es ist bereits ein Wiederbelebungsprozess im Gange. Verbleibende
-  Zeit: <red>%timeLeft% Sekunden<gray>."
-alreadyRevivingPlayer: "<red>Dieser Spieler wird bereits von einem anderen Block wiederbelebt!
+beaconInUseInteract: "&7Es ist bereits ein Wiederbelebungsprozess im Gange. Verbleibende
+  Zeit: &c%timeLeft% Sekunden&7."
+alreadyRevivingPlayer: "&cDieser Spieler wird bereits von einem anderen Block wiederbelebt!
   Bitte warte, bis die aktuelle Wiederbelebung abgeschlossen ist."
-noReviveBeaconBreak: "<red>Du kannst einen Wiederbelebungsblock nicht zerstören, während
+noReviveBeaconBreak: "&cDu kannst einen Wiederbelebungsblock nicht zerstören, während
   er in Benutzung ist!"
-noItemUseInWorld: "<red>Du kannst diesen Gegenstand in dieser Welt nicht benutzen!"
-bypassVictim: "<green>Deine Herzen sind durch die Bypass-Berechtigung geschützt!"
-bypassKiller: "<yellow>%player% hat die Bypass-Berechtigung aktiviert; kein Herz gewonnen."
-noDamageWithBypass: "<red>Du kannst Spielern mit Bypass-Berechtigung keinen Schaden zufügen!"
-noHeartUseWithBypass: "<red>Du kannst keine Herzen mit Bypass-Berechtigung verwenden!"
-bypassStatusActive: "<gray>Bypass-Berechtigung ist <green>aktiv <gray>für %player%."
-bypassStatusInactive: "<gray>Bypass-Berechtigung ist <red>inaktiv <gray>für %player%."
+noItemUseInWorld: "&cDu kannst diesen Gegenstand in dieser Welt nicht benutzen!"
+bypassVictim: "&aDeine Herzen sind durch die Bypass-Berechtigung geschützt!"
+bypassKiller: "&e%player% hat die Bypass-Berechtigung aktiviert; kein Herz gewonnen."
+noDamageWithBypass: "&cDu kannst Spielern mit Bypass-Berechtigung keinen Schaden zufügen!"
+noHeartUseWithBypass: "&cDu kannst keine Herzen mit Bypass-Berechtigung verwenden!"
+bypassStatusActive: "&7Bypass-Berechtigung ist &aaktiv &7für %player%."
+bypassStatusInactive: "&7Bypass-Berechtigung ist &cinaktiv &7für %player%."
 debugUploadConfirm: |2
 
-  <#8b73f6>Debug-Bericht hochladen<reset>
+  <#8b73f6>Debug-Bericht hochladen&r
 
-  <gray> Möchtest du den Debug-Bericht wirklich hochladen? Mit der Bestätigung akzeptierst du unsere <u><click:OPEN_URL:https://debug.zetaplugins.com/privacy>Datenschutzerklärung</click></u>.
+  &7 Möchtest du den Debug-Bericht wirklich hochladen? Mit der Bestätigung akzeptierst du unsere <u><click:OPEN_URL:https://debug.zetaplugins.com/privacy>Datenschutzerklärung</click></u>.
 
-  <#8b73f6><click:RUN_COMMAND:%command%>[Hier klicken]</click> <reset><dark_gray>oder führe <u>%command%</u> aus.
-debugFailedUpload: "<red>Fehler beim Hochladen des Debug-Berichts!"
+  <#8b73f6><click:RUN_COMMAND:%command%>[Hier klicken]</click> &r&8oder führe <u>%command%</u> aus.
+debugFailedUpload: "&cFehler beim Hochladen des Debug-Berichts!"
 debugUploadSuccess: |
-  <dark_gray> [<green>✔<dark_gray>] <gray>Debug-Bericht erfolgreich hochgeladen! Du kannst ihn hier ansehen:
+  &8 [&a✔&8] &7Debug-Bericht erfolgreich hochgeladen! Du kannst ihn hier ansehen:
   <u><#8b73f6><click:OPEN_URL:%url%>%url%</click></u>
-debugFailedToCreateFile: "<red>Fehler beim Erstellen der Debug-Berichtsdatei: %error%"
+debugFailedToCreateFile: "&cFehler beim Erstellen der Debug-Berichtsdatei: %error%"
 debugFileCreated: |-
-  <dark_gray> [<green>✔<dark_gray>] <gray> Debug-Daten in den folgenden Dateien gespeichert:
+  &8 [&a✔&8] &7 Debug-Daten in den folgenden Dateien gespeichert:
   <click:COPY_TO_CLIPBOARD:%jsonPath%><#8b73f6>%jsonPath%</click>
   <click:COPY_TO_CLIPBOARD:%txtPath%><#8b73f6>%txtPath%</click>
-gracePeriodWithdraw: "<red>Du kannst während der Schutzzeit keine Herzen auszahlen!"
+gracePeriodWithdraw: "&cDu kannst während der Schutzzeit keine Herzen auszahlen!"
+minWithdrawHearts: "&cNicht genug Herzen! Nach dem Abheben musst du mindestens %min% Herzen übrig behalten."

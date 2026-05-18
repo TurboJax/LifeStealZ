@@ -413,7 +413,7 @@ public final class InventoryClickListener implements Listener {
         if (!meta.hasLore()) return null;
 
         List<String> lore = meta.getLore();
-        return lore.getLast();
+        return lore.get(lore.size() - 1);
     }
 
     /**
